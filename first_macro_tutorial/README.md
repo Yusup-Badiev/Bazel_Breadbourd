@@ -1,0 +1,1 @@
+link to tutorial https://bazel.build/rules/macro-tutorial
