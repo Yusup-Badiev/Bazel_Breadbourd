@@ -10,5 +10,5 @@ inline bool exists_test3(const std::string& name) {
 }
 
 int main() {
-    std::cout << exists_test3("small_logo.png") << std::endl;
+    std::cout << exists_test3("function_bzl_file_test/small_logo.png") << std::endl;
 }

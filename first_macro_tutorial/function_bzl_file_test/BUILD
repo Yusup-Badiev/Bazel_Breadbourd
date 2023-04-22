@@ -1,8 +1,8 @@
-genrule(
+load("//function_bzl_file_test:miniature.bzl", "miniature")
+
+miniature(
     name = "logo_miniature",
-    srcs = ["logo.png"],
-    outs = ["small_logo.png"],
-    cmd = "cp $< $@",
+    src = "logo.png",
 )
 
 cc_binary(
