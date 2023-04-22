@@ -3,6 +3,8 @@
 #include <string>
 #include <fstream>
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 
 inline bool exists_test3(const std::string& name) {
   struct stat buffer;   
@@ -10,5 +12,5 @@ inline bool exists_test3(const std::string& name) {
 }
 
 int main() {
-    std::cout << exists_test3("small_logo.png") << std::endl;
+    std::cout << exists_test3("genrule_test/small_logo.png") << std::endl;
 }
