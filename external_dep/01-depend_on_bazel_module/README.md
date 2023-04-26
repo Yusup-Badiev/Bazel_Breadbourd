@@ -1,0 +1,1 @@
+Get this working link: https://github.com/bazelbuild/examples/tree/main/bzlmod/01-depend_on_bazel_module
