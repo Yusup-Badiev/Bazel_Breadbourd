@@ -1,4 +1,4 @@
-laod("@bazel_skylib//:version.bzl", "hello_msg")
+load("@bazel_skylib//:version.bzl", "hello_msg")
 print(hello_msg)
 
 cc_binary(
@@ -6,6 +6,6 @@ cc_binary(
     srcs = ["main.cc"],
     deps = [
         "@lib_a//:lib_a",
-        "@com_github_google.glog//:glog",
+        "@com_github_google_glog//:glog",
     ]
 )
