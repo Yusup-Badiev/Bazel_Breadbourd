@@ -1,0 +1,10 @@
+load("//:dep.bzl", "world_cities")
+world_cities()
+
+local_repository(
+    name = "lib_a",
+    path = "./lib_a",
+)
+
+load("@lib_a//:deps.bzl", "emojis")
+emojis()
