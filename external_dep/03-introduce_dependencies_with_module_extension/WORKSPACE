@@ -1,4 +1,4 @@
-load("//:dep.bzl", "world_cities")
+load("//:deps.bzl", "world_cities")
 world_cities()
 
 local_repository(
