@@ -1,0 +1,9 @@
+module(
+    name = "grpc_bzlmod_test",
+    version = "1"
+)
+
+bazel_dep(name = "grpc", version = "1.41.0")
+bazel_dep(name = "aspect_rules_jasmine", version = "1.0.0")
+bazel_dep(name = "rules_python", version = "0.21.0")
+bazel_dep(name = "glog", version = "0.5.0", repo_name = "com_github_google_glog")
